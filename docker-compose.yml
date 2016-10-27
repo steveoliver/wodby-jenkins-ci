@@ -25,4 +25,4 @@ services:
       SIMPLETEST_BASE_URL: http://nginx
       SIMPLETEST_DB: mysql://drupal:drupal@mariadb/drupal
     volumes:
-      - ./:/var/www/html
+      - ./web:/var/www/html
